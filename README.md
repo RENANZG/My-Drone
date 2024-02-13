@@ -22,7 +22,14 @@
 <p align="center"><img src=".data/Theory_of_the_Drone.webp" title="Theory_of_the_Drone"/></p>
 
 
-<h3></h3>
+<!-- ################################################# -->
+
+<h3>Links</h3>
+
+https://www.reddit.com/r/drones<br>
+https://www.reddit.com/r/DroneCombat<br>
+https://www.reddit.com/r/DroneWarfare<br>
+https://www.reddit.com/r/DroneWars<br>
 
 <!--################################### -->
 

@@ -21,21 +21,11 @@
 
 <!-- ################################################# -->
 
-<p align="center">
-<video width="640" height="480" controls>
-<source src="6.Weaponize/STM_KARGU_-_Rotary_Wing_Attack_Drone_Loitering_Munition_System_(1080p_25fps_H264-128kbit_AAC).mp4"></video>
-</p>
-
-<p align="center">
-<source src="6.Weaponize/STM_KARGU_-_Rotary_Wing_Attack_Drone_Loitering_Munition_System_(1080p_25fps_H264-128kbit_AAC).mp4">
-</p>
-
-6.Weaponize/STM_KARGU_-_Rotary_Wing_Attack_Drone_Loitering_Munition_System_(1080p_25fps_H264-128kbit_AAC).mp4 <br>
+<p align="center"><img src=".data/STM_KARGU_-_Rotary_Wing_Attack_Drone_Loitering_Munition_System_(1080p_25fps_H264-128kbit_AAC).gif" title="Theory_of_the_Drone"/><a href="https://youtu.be/auRlh-f2wwQ">STM | KARGU - Rotary Wing Attack Drone Loitering Munition System</a></p>
 
 <!-- ################################################# -->
 
 <p align="center"><img src=".data/Theory_of_the_Drone.webp" title="Theory_of_the_Drone"/></p>
-
 
 <!-- ################################################# -->
 

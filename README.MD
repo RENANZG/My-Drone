@@ -22,7 +22,7 @@
 <!-- ################################################# -->
 
 <p align="center">
-<img src=".data/STM_KARGU_-_Rotary_Wing_Attack_Drone_Loitering_Munition_System_(1080p_25fps_H264-128kbit_AAC).gif" title="Theory of the Drone"/><br>
+<img src=".data/STM_KARGU_-_Rotary_Wing_Attack_Drone_Loitering_Munition_System_(1080p_25fps_H264-128kbit_AAC).gif" title="Cool cluster weapons"/><br>
 <a href="https://youtu.be/auRlh-f2wwQ">STM | KARGU - Rotary Wing Attack Drone Loitering Munition System</a>
 </p>
 

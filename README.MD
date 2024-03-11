@@ -53,7 +53,7 @@ https://www.ophiropt.com<br>
 <br>
 <br>
 
-<p align="center">Made with ♥</p>
+<p align="center">Silent enim leges inter arma.</p>
 </div>
 
 <!--################################### -->

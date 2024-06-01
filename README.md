@@ -19,29 +19,66 @@
 
 <hr>
 
-<!-- ################################################# -->
+<!-- ##### -->
 
 <p align="center">
 <img src=".data/STM_KARGU_-_Rotary_Wing_Attack_Drone_Loitering_Munition_System_(1080p_25fps_H264-128kbit_AAC).gif" title="Cool cluster weapons"/><br>
 <a href="https://youtu.be/auRlh-f2wwQ">STM | KARGU - Rotary Wing Attack Drone Loitering Munition System</a>
 </p>
 
-<!-- ################################################# -->
+<!-- ##### -->
 
 <p align="center"><img src=".data/Theory_of_the_Drone.webp" title="Theory of the Drone"/></p>
 
-<!-- ################################################# -->
+<!-- ##### -->
 
-<h3>Links</h3>
+<h3>CAD</h3>
+• https://open3dmodel.com<br>
+• https://free3d.com<br>
+• https://3dcadbrowser.com<br>
+• https://cults3d.com<br>
+• https://grabcad.com<br>
+• https://turbosquid.com<br>
+• https://yeggi.com<br>
+• https://modelviewer.dev<br>
+• https://www.printables.com<br>
+• https://www.turbosquid.com<br>
 
-https://www.reddit.com/r/drones<br>
-https://www.reddit.com/r/DroneCombat<br>
-https://www.reddit.com/r/DroneWarfare<br>
-https://www.reddit.com/r/DroneWars<br>
-https://www.unmannedsystemstechnology.com<br>
-https://www.ophiropt.com<br>
+<!-- ##### -->
 
-<pre class="stl">
+<h4>Autopilot</h4>
+• https://ardupilot.org<br>
+• https://px4.io<br>
+• https://modalai.com<br>
+
+<!-- ##### -->
+
+<h4>Eletronics</h4>
+• https://ibiblio.org/kuphaldt/electricCircuits<br>
+• https://electronics-tutorials.ws<br>
+
+<!-- ##### -->
+
+<h4>Links</h4>
+• https://3dprintingindustry.com<br>
+• https://unmannedsystemstechnology.com<br>
+• https://ophiropt.com<br>
+
+<!-- ##### -->
+
+<h4>Reddit</h4>
+• https://reddit.com/r/drones<br>
+• https://reddit.com/r/DroneCombat<br>
+• https://reddit.com/r/DroneWarfare<br>
+• https://reddit.com/r/DroneWars<br>
+
+<!-- ##### -->
+
+Testing
+
+<iframe src="https://clara.io/embed/2c679e79-7bd6-473a-a840-47368b560f02?renderer=webgl" width="800" height="600" allowfullscreen></iframe>
+
+<pre style="stl">
 solid cube_corner
   facet normal 0.0 -1.0 0.0
     outer loop
@@ -73,6 +110,40 @@ solid cube_corner
   endfacet
 endsolid
 <pre>
+
+
+```stl
+solid cube_corner
+  facet normal 0.0 -1.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 1.0 0.0 0.0
+      vertex 0.0 0.0 1.0
+    endloop
+  endfacet
+  facet normal 0.0 0.0 -1.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.0 1.0 0.0
+      vertex 1.0 0.0 0.0
+    endloop
+  endfacet
+  facet normal -1.0 0.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.0 0.0 1.0
+      vertex 0.0 1.0 0.0
+    endloop
+  endfacet
+  facet normal 0.577 0.577 0.577
+    outer loop
+      vertex 1.0 0.0 0.0
+      vertex 0.0 1.0 0.0
+      vertex 0.0 0.0 1.0
+    endloop
+  endfacet
+endsolid
+```
 
 <!--################################### -->
 

@@ -9129,183 +9129,183 @@ solid drone_frame
   facet normal 0 0 1
     outer loop
       vertex 0 0 0
-      vertex 10 0 0
-      vertex 10 10 0
+      vertex 20 0 0
+      vertex 20 20 0
     endloop
   endfacet
   facet normal 0 0 1
     outer loop
       vertex 0 0 0
-      vertex 10 10 0
-      vertex 0 10 0
+      vertex 20 20 0
+      vertex 0 20 0
     endloop
   endfacet
   facet normal 0 0 -1
     outer loop
       vertex 0 0 5
-      vertex 10 0 5
-      vertex 10 10 5
+      vertex 20 0 5
+      vertex 20 20 5
     endloop
   endfacet
   facet normal 0 0 -1
     outer loop
       vertex 0 0 5
-      vertex 10 10 5
-      vertex 0 10 5
+      vertex 20 20 5
+      vertex 0 20 5
     endloop
   endfacet
   facet normal 1 0 0
     outer loop
-      vertex 10 0 0
-      vertex 10 0 5
-      vertex 10 10 5
+      vertex 20 0 0
+      vertex 20 0 5
+      vertex 20 20 5
     endloop
   endfacet
   facet normal 1 0 0
     outer loop
-      vertex 10 0 0
-      vertex 10 10 5
-      vertex 10 10 0
+      vertex 20 0 0
+      vertex 20 20 5
+      vertex 20 20 0
     endloop
   endfacet
   facet normal -1 0 0
     outer loop
       vertex 0 0 0
       vertex 0 0 5
-      vertex 0 10 5
+      vertex 0 20 5
     endloop
   endfacet
   facet normal -1 0 0
     outer loop
       vertex 0 0 0
-      vertex 0 10 5
-      vertex 0 10 0
+      vertex 0 20 5
+      vertex 0 20 0
     endloop
   endfacet
   facet normal 0 1 0
     outer loop
-      vertex 0 10 0
-      vertex 10 10 0
-      vertex 10 10 5
+      vertex 0 20 0
+      vertex 20 20 0
+      vertex 20 20 5
     endloop
   endfacet
   facet normal 0 1 0
     outer loop
-      vertex 0 10 0
-      vertex 10 10 5
-      vertex 0 10 5
+      vertex 0 20 0
+      vertex 20 20 5
+      vertex 0 20 5
     endloop
   endfacet
   facet normal 0 -1 0
     outer loop
       vertex 0 0 0
-      vertex 10 0 0
-      vertex 10 0 5
+      vertex 20 0 0
+      vertex 20 0 5
     endloop
   endfacet
   facet normal 0 -1 0
     outer loop
       vertex 0 0 0
-      vertex 10 0 5
+      vertex 20 0 5
       vertex 0 0 5
     endloop
   endfacet
   facet normal 0 1 0
     outer loop
-      vertex 2 10 0
-      vertex 8 10 0
-      vertex 8 10 1
+      vertex 4 20 0
+      vertex 16 20 0
+      vertex 16 20 1
     endloop
   endfacet
   facet normal 0 1 0
     outer loop
-      vertex 2 10 0
-      vertex 8 10 1
-      vertex 2 10 1
+      vertex 4 20 0
+      vertex 16 20 1
+      vertex 4 20 1
     endloop
   endfacet
   facet normal 0 0 1
     outer loop
-      vertex 2 2 1
-      vertex 8 2 1
-      vertex 8 8 1
+      vertex 4 4 1
+      vertex 16 4 1
+      vertex 16 16 1
     endloop
   endfacet
   facet normal 0 0 1
     outer loop
-      vertex 2 2 1
-      vertex 8 8 1
-      vertex 2 8 1
+      vertex 4 4 1
+      vertex 16 16 1
+      vertex 4 16 1
     endloop
   endfacet
   facet normal 0 0 1
     outer loop
-      vertex 2 2 1
-      vertex 8 2 1
-      vertex 8 2 2
+      vertex 4 4 1
+      vertex 16 4 1
+      vertex 16 4 2
     endloop
   endfacet
   facet normal 0 0 1
     outer loop
-      vertex 2 2 1
-      vertex 8 2 2
-      vertex 2 2 2
+      vertex 4 4 1
+      vertex 16 4 2
+      vertex 4 4 2
     endloop
   endfacet
   facet normal 0 0 1
     outer loop
-      vertex 2 8 1
-      vertex 8 8 1
-      vertex 8 8 2
+      vertex 4 16 1
+      vertex 16 16 1
+      vertex 16 16 2
     endloop
   endfacet
   facet normal 0 0 1
     outer loop
-      vertex 2 8 1
-      vertex 8 8 2
-      vertex 2 8 2
+      vertex 4 16 1
+      vertex 16 16 2
+      vertex 4 16 2
     endloop
   endfacet
   facet normal 0 0 -1
     outer loop
-      vertex 2 2 3
-      vertex 8 2 3
-      vertex 8 8 3
+      vertex 4 4 3
+      vertex 16 4 3
+      vertex 16 16 3
     endloop
   endfacet
   facet normal 0 0 -1
     outer loop
-      vertex 2 2 3
-      vertex 8 8 3
-      vertex 2 8 3
+      vertex 4 4 3
+      vertex 16 16 3
+      vertex 4 16 3
     endloop
   endfacet
   facet normal 0 0 -1
     outer loop
-      vertex 2 2 3
-      vertex 8 2 3
-      vertex 8 2 4
+      vertex 4 4 3
+      vertex 16 4 3
+      vertex 16 4 4
     endloop
   endfacet
   facet normal 0 0 -1
     outer loop
-      vertex 2 2 3
-      vertex 8 2 4
-      vertex 2 2 4
+      vertex 4 4 3
+      vertex 16 4 4
+      vertex 4 4 4
     endloop
   endfacet
   facet normal 0 0 -1
     outer loop
-      vertex 2 8 3
-      vertex 8 8 3
-      vertex 8 8 4
+      vertex 4 16 3
+      vertex 16 16 3
+      vertex 16 16 4
     endloop
   endfacet
   facet normal 0 0 -1
     outer loop
-      vertex 2 8 3
-      vertex 8 8 4
-      vertex 2 8 4
+      vertex 4 16 3
+      vertex 16 16 4
+      vertex 4 16 4
     endloop
   endfacet
 endsolid drone_frame

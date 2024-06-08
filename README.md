@@ -43,155 +43,7 @@
 
 <!-- ##### -->
 
-<h4>Simple 3D Drone in ASCII STL made by ChatGPT</h4>
-
-```stl
-solid Drone
-  facet normal 0 0 1
-    outer loop
-      vertex 0 0 0
-      vertex 1 0 0
-      vertex 1 1 0
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 0 0 0
-      vertex 1 1 0
-      vertex 0 1 0
-    endloop
-  endfacet
-  facet normal 0 0 -1
-    outer loop
-      vertex 0 0 1
-      vertex 0 1 1
-      vertex 1 0 1
-    endloop
-  endfacet
-  facet normal 0 0 -1
-    outer loop
-      vertex 0 1 1
-      vertex 1 1 1
-      vertex 1 0 1
-    endloop
-  endfacet
-  facet normal 0 1 0
-    outer loop
-      vertex 0 0 0
-      vertex 0 0 1
-      vertex 1 0 0
-    endloop
-  endfacet
-  facet normal 0 1 0
-    outer loop
-      vertex 0 0 1
-      vertex 1 0 1
-      vertex 1 0 0
-    endloop
-  endfacet
-  facet normal 0 -1 0
-    outer loop
-      vertex 0 1 0
-      vertex 1 1 0
-      vertex 1 1 1
-    endloop
-  endfacet
-  facet normal 0 -1 0
-    outer loop
-      vertex 0 1 0
-      vertex 1 1 1
-      vertex 0 1 1
-    endloop
-  endfacet
-  facet normal 1 0 0
-    outer loop
-      vertex 1 0 0
-      vertex 1 0 1
-      vertex 1 1 0
-    endloop
-  endfacet
-  facet normal 1 0 0
-    outer loop
-      vertex 1 0 1
-      vertex 1 1 1
-      vertex 1 1 0
-    endloop
-  endfacet
-  facet normal -1 0 0
-    outer loop
-      vertex 0 0 0
-      vertex 0 1 0
-      vertex 0 0 1
-    endloop
-  endfacet
-  facet normal -1 0 0
-    outer loop
-      vertex 0 0 1
-      vertex 0 1 0
-      vertex 0 1 1
-    endloop
-  endfacet
-  facet normal 0.7 0.7 0
-    outer loop
-      vertex 0.5 0.5 -0.1
-      vertex 0.5 0.5 0.1
-      vertex 0.5 0.8 0
-    endloop
-  endfacet
-  facet normal 0.7 0.7 0
-    outer loop
-      vertex 0.5 0.5 -0.1
-      vertex 0.5 0.8 0
-      vertex 0.5 0.5 0.1
-    endloop
-  endfacet
-  facet normal 0.7 -0.7 0
-    outer loop
-      vertex 0.5 0.5 -0.1
-      vertex 0.5 0.5 0.1
-      vertex 0.5 0.2 0
-    endloop
-  endfacet
-  facet normal 0.7 -0.7 0
-    outer loop
-      vertex 0.5 0.5 -0.1
-      vertex 0.5 0.2 0
-      vertex 0.5 0.5 0.1
-    endloop
-  endfacet
-  facet normal -0.7 0.7 0
-    outer loop
-      vertex 0.5 0.5 -0.1
-      vertex 0.5 0.8 0
-      vertex 0.5 0.5 0.1
-    endloop
-  endfacet
-  facet normal -0.7 0.7 0
-    outer loop
-      vertex 0.5 0.5 -0.1
-      vertex 0.5 0.5 0.1
-      vertex 0.5 0.2 0
-    endloop
-  endfacet
-  facet normal -0.7 -0.7 0
-    outer loop
-      vertex 0.5 0.5 -0.1
-      vertex 0.5 0.2 0
-      vertex 0.5 0.5 0.1
-    endloop
-  endfacet
-  facet normal -0.7 -0.7 0
-    outer loop
-      vertex 0.5 0.5 -0.1
-      vertex 0.5 0.5 0.1
-      vertex 0.5 0.8 0
-    endloop
-  endfacet
-endsolid Drone
-```
-
-
-<h4>Simple 3D Drone in ASCII STL</h4>
+<h4>Simple 3D Drone frame in ASCII STL</h4>
 
 ```stl
 solid Drone
@@ -9269,6 +9121,98 @@ solid Drone
   endfacet
 endsolid Drone
 ```
+
+<h4>Simple 3D Drone frame in ASCII STL made by ChatGPT-3.5</h4>
+
+```stl
+solid Drone_Frame
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 0
+      vertex 10 0 0
+      vertex 10 10 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 0
+      vertex 10 10 0
+      vertex 0 10 0
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 0 0 5
+      vertex 10 0 5
+      vertex 10 10 5
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 0 0 5
+      vertex 10 10 5
+      vertex 0 10 5
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 10 0 0
+      vertex 10 0 5
+      vertex 10 10 5
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 10 0 0
+      vertex 10 10 5
+      vertex 10 10 0
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 0 0 0
+      vertex 0 0 5
+      vertex 0 10 5
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 0 0 0
+      vertex 0 10 5
+      vertex 0 10 0
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 0 10 0
+      vertex 10 10 0
+      vertex 10 10 5
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 0 10 0
+      vertex 10 10 5
+      vertex 0 10 5
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 0 0 0
+      vertex 10 0 0
+      vertex 10 0 5
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 0 0 0
+      vertex 10 0 5
+      vertex 0 0 5
+    endloop
+  endfacet
+endsolid Drone_Frame
+```
+
 <!-- ##### -->
 
 <h3>CAD</h3>

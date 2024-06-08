@@ -9122,10 +9122,10 @@ solid Drone
 endsolid Drone
 ```
 
-<h4>Simple 3D Drone frame in ASCII STL made by ChatGPT-3.5</h4>
+<h4>A 3D Drone frame in ASCII STL made by ChatGPT-3.5</h4>
 
 ```stl
-solid Drone_Frame
+solid drone_frame
   facet normal 0 0 1
     outer loop
       vertex 0 0 0
@@ -9210,7 +9210,105 @@ solid Drone_Frame
       vertex 0 0 5
     endloop
   endfacet
-endsolid Drone_Frame
+  facet normal 0 1 0
+    outer loop
+      vertex 2 10 0
+      vertex 8 10 0
+      vertex 8 10 1
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 2 10 0
+      vertex 8 10 1
+      vertex 2 10 1
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 2 2 1
+      vertex 8 2 1
+      vertex 8 8 1
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 2 2 1
+      vertex 8 8 1
+      vertex 2 8 1
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 2 2 1
+      vertex 8 2 1
+      vertex 8 2 2
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 2 2 1
+      vertex 8 2 2
+      vertex 2 2 2
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 2 8 1
+      vertex 8 8 1
+      vertex 8 8 2
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 2 8 1
+      vertex 8 8 2
+      vertex 2 8 2
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 2 2 3
+      vertex 8 2 3
+      vertex 8 8 3
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 2 2 3
+      vertex 8 8 3
+      vertex 2 8 3
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 2 2 3
+      vertex 8 2 3
+      vertex 8 2 4
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 2 2 3
+      vertex 8 2 4
+      vertex 2 2 4
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 2 8 3
+      vertex 8 8 3
+      vertex 8 8 4
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 2 8 3
+      vertex 8 8 4
+      vertex 2 8 4
+    endloop
+  endfacet
+endsolid drone_frame
 ```
 
 <!-- ##### -->

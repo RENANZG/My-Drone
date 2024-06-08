@@ -1,9 +1,24 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
 
 <head>
 
-  <meta charset='UTF-8'>
+   <meta charset="UTF-8">
+    
+  <style>
+    .code-container {
+      display: flex;
+      align-items: center;
+    }
+    pre {
+      margin: 0;
+    }
+    button {
+      margin-left: 10px;
+    }
+  </style>
+
+</head>
 
 <body>
 
@@ -29,7 +44,7 @@
 <!-- ##### -->
 
 ```stl
-solid
+solid drone
   facet normal 0.9810740351676941 0.1936330795288086 0
     outer loop
       vertex 82.91600036621094 38.16400146484375 0
@@ -41960,7 +41975,7 @@ solid
       vertex 89.21400451660156 18.850000381469727 0.398000031709671
     endloop
   endfacet
-endsolid
+endsolid drone
 ```
 
 <!-- ##### -->
@@ -41992,7 +42007,7 @@ endsolid
 • https://electronics-tutorials.ws<br>
 
 <!-- ##### -->
-
+drone
 <h4>Links</h4>
 • https://3dprintingindustry.com<br>
 • https://unmannedsystemstechnology.com<br>

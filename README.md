@@ -9301,7 +9301,6 @@ endsolid drone_frame
 <h4>A 3D Drone frame in ASCII STL made by ChatGPT-4.0</h4>
 
 ```stl
-plaintext
 solid DroneFrame
   facet normal -1 0 0
     outer loop

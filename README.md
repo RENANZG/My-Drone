@@ -9301,169 +9301,295 @@ endsolid drone_frame
 <h4>A 3D Drone frame in ASCII STL made by ChatGPT-4.0</h4>
 
 ```stl
-solid DroneFrame
+solid Drone_Frame
+  // Central body
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 0
+      vertex 10 0 0
+      vertex 10 10 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 0
+      vertex 10 10 0
+      vertex 0 10 0
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 0 0 1
+      vertex 10 0 1
+      vertex 10 10 1
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 0 0 1
+      vertex 10 10 1
+      vertex 0 10 1
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 10 0 0
+      vertex 10 0 1
+      vertex 10 10 1
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 10 0 0
+      vertex 10 10 1
+      vertex 10 10 0
+    endloop
+  endfacet
   facet normal -1 0 0
     outer loop
-      vertex -56.191 11.355 2
-      vertex -56.191 11.355 0
-      vertex -56.191 10.573 0
+      vertex 0 0 0
+      vertex 0 0 1
+      vertex 0 10 1
     endloop
   endfacet
   facet normal -1 0 0
     outer loop
-      vertex -56.191 11.355 2
-      vertex -56.191 10.573 0
-      vertex -56.191 10.573 2
+      vertex 0 0 0
+      vertex 0 10 1
+      vertex 0 10 0
     endloop
   endfacet
-  facet normal 0.951 0.309 0
+  facet normal 0 1 0
     outer loop
-      vertex -8.361 12.099 2
-      vertex -8.119 11.355 2
-      vertex -8.119 11.355 0
+      vertex 0 10 0
+      vertex 10 10 0
+      vertex 10 10 1
     endloop
   endfacet
-  facet normal 0.951 0.309 0
+  facet normal 0 1 0
     outer loop
-      vertex -8.361 12.099 2
-      vertex -8.119 11.355 0
-      vertex -8.361 12.099 0
+      vertex 0 10 0
+      vertex 10 10 1
+      vertex 0 10 1
     endloop
   endfacet
-  facet normal 0.951 -0.309 0
+  facet normal 0 -1 0
     outer loop
-      vertex -8.361 9.829 2
-      vertex -8.361 9.829 0
-      vertex -8.119 10.573 0
+      vertex 0 0 0
+      vertex 10 0 0
+      vertex 10 0 1
     endloop
   endfacet
-  facet normal 0.951 -0.309 0
+  facet normal 0 -1 0
     outer loop
-      vertex -8.361 9.829 2
-      vertex -8.119 10.573 0
-      vertex -8.119 10.573 2
+      vertex 0 0 0
+      vertex 10 0 1
+      vertex 0 0 1
     endloop
   endfacet
-  facet normal -0.809 0.588 0
+
+  // Arm 1
+  facet normal 0 0 1
     outer loop
-      vertex -9.25 10.282 2
-      vertex -9.25 10.282 0
-      vertex -9.526 9.902 0
-    endloop
-  endfacet
-  facet normal -0.809 0.588 0
-    outer loop
-      vertex -9.25 10.282 2
-      vertex -9.526 9.902 0
-      vertex -9.526 9.902 2
-    endloop
-  endfacet
-  facet normal -0.951 0.309 0
-    outer loop
-      vertex -9.105 10.729 0
-      vertex -9.25 10.282 0
-      vertex -9.25 10.282 2
-    endloop
-  endfacet
-  facet normal -0.951 0.309 0
-    outer loop
-      vertex -9.105 10.729 0
-      vertex -9.25 10.282 2
-      vertex -9.105 10.729 2
-    endloop
-  endfacet
-  facet normal -0.951 -0.309 0
-    outer loop
-      vertex -9.25 11.646 2
-      vertex -9.25 11.646 0
-      vertex -9.105 11.199 0
-    endloop
-  endfacet
-  facet normal -0.951 -0.309 0
-    outer loop
-      vertex -9.25 11.646 2
-      vertex -9.105 11.199 0
-      vertex -9.105 11.199 2
-    endloop
-  endfacet
-  facet normal -0.809 -0.588 0
-    outer loop
-      vertex -9.526 12.026 2
-      vertex -9.526 12.026 0
-      vertex -9.25 11.646 0
-    endloop
-  endfacet
-  facet normal -0.809 -0.588 0
-    outer loop
-      vertex -9.526 12.026 2
-      vertex -9.25 11.646 0
-      vertex -9.25 11.646 2
+      vertex 5 10 0
+      vertex 6 10 0
+      vertex 6 20 0
     endloop
   endfacet
   facet normal 0 0 1
     outer loop
-      vertex -50.69 -9.465 5
-      vertex -50.382 -10.414 5
-      vertex -50.272 -9.252 5
+      vertex 5 10 0
+      vertex 6 20 0
+      vertex 5 20 0
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 5 10 1
+      vertex 6 10 1
+      vertex 6 20 1
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 5 10 1
+      vertex 6 20 1
+      vertex 5 20 1
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 6 10 0
+      vertex 6 10 1
+      vertex 6 20 1
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 6 10 0
+      vertex 6 20 1
+      vertex 6 20 0
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 5 10 0
+      vertex 5 10 1
+      vertex 5 20 1
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 5 10 0
+      vertex 5 20 1
+      vertex 5 20 0
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 5 20 0
+      vertex 6 20 0
+      vertex 6 20 1
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 5 20 0
+      vertex 6 20 1
+      vertex 5 20 1
+    endloop
+  endfacet
+
+  // Arm 2
+  facet normal 0 0 1
+    outer loop
+      vertex 10 5 0
+      vertex 20 5 0
+      vertex 20 6 0
     endloop
   endfacet
   facet normal 0 0 1
     outer loop
-      vertex -52.584 -8.5 5
-      vertex -53.177 -9.505 5
-      vertex -52.37 -8.919 5
+      vertex 10 5 0
+      vertex 20 6 0
+      vertex 10 6 0
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 10 5 1
+      vertex 20 5 1
+      vertex 20 6 1
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 10 5 1
+      vertex 20 6 1
+      vertex 10 6 1
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 20 5 0
+      vertex 20 5 1
+      vertex 20 6 1
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 20 5 0
+      vertex 20 6 1
+      vertex 20 6 0
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 10 5 0
+      vertex 10 5 1
+      vertex 10 6 1
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 10 5 0
+      vertex 10 6 1
+      vertex 10 6 0
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 10 6 0
+      vertex 20 6 0
+      vertex 20 6 1
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 10 6 0
+      vertex 20 6 1
+      vertex 10 6 1
+    endloop
+  endfacet
+
+  // Arm 3
+  facet normal 0 0 1
+    outer loop
+      vertex 5 0 0
+      vertex 6 0 0
+      vertex 6 -10 0
     endloop
   endfacet
   facet normal 0 0 1
     outer loop
-      vertex -49.726 -8.5 5
-      vertex -49.939 -8.919 5
-      vertex -49.163 -9.536 5
+      vertex 5 0 0
+      vertex 6 -10 0
+      vertex 5 -10 0
     endloop
   endfacet
-  facet normal 0.309 0.951 0
+  facet normal 0 0 -1
     outer loop
-      vertex -9.906 9.626 2
-      vertex -9.906 9.626 0
-      vertex -10.353 9.481 0
+      vertex 5 0 1
+      vertex 6 0 1
+      vertex 6 -10 1
     endloop
   endfacet
-  facet normal 0.309 0.951 0
+  facet normal 0 0 -1
     outer loop
-      vertex -9.906 9.626 2
-      vertex -10.353 9.481 0
-      vertex -10.353 9.481 2
+      vertex 5 0 1
+      vertex 6 -10 1
+      vertex 5 -10 1
     endloop
   endfacet
-  facet normal -0.309 0.951 0
+  facet normal 1 0 0
     outer loop
-      vertex -9.906 12.302 2
-      vertex -9.906 12.302 0
-      vertex -10.353 12.447 0
+      vertex 6 0 0
+      vertex 6 0 1
+      vertex 6 -10 1
     endloop
   endfacet
-  facet normal -0.309 0.951 0
+  facet normal 1 0 0
     outer loop
-      vertex -9.906 12.302 2
-      vertex -10.353 12.447 0
-      vertex -10.353 12.447 2
+      vertex 6 0 0
+      vertex 6 -10 1
+      vertex 6 -10 0
     endloop
   endfacet
-  facet normal 0.309 -0.951 0
+  facet normal -1 0 0
     outer loop
-      vertex -9.906 12.302 0
-      vertex -9.906 12.302 2
-      vertex -10.353 12.447 2
+      vertex 5 0 0
+      vertex 5 0 1
+      vertex 5 -10 1
     endloop
   endfacet
-  facet normal 0.309 -0.951 0
+  facet normal -1 0 0
     outer loop
-      vertex -9.906 12.302 0
-      vertex -10.353 12.447 2
-      vertex -10.353 12.447 0
+      vertex 5 0 0
+      vertex 5 -10 1
+      vertex 5 -10 0
     endloop
   endfacet
-endsolid DroneFrame
+  facet normal
 ```
 
 <!-- ##### -->

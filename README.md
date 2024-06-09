@@ -5,19 +5,6 @@
 
    <meta charset="UTF-8">
     
-  <style>
-    .code-container {
-      display: flex;
-      align-items: center;
-    }
-    pre {
-      margin: 0;
-    }
-    button {
-      margin-left: 10px;
-    }
-  </style>
-
 </head>
 
 <body>
@@ -9309,6 +9296,175 @@ solid drone_frame
     endloop
   endfacet
 endsolid drone_frame
+```
+
+<h4>A 3D Drone frame in ASCII STL made by ChatGPT-4.0</h4>
+
+```stl
+plaintext
+solid DroneFrame
+  facet normal -1 0 0
+    outer loop
+      vertex -56.191 11.355 2
+      vertex -56.191 11.355 0
+      vertex -56.191 10.573 0
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex -56.191 11.355 2
+      vertex -56.191 10.573 0
+      vertex -56.191 10.573 2
+    endloop
+  endfacet
+  facet normal 0.951 0.309 0
+    outer loop
+      vertex -8.361 12.099 2
+      vertex -8.119 11.355 2
+      vertex -8.119 11.355 0
+    endloop
+  endfacet
+  facet normal 0.951 0.309 0
+    outer loop
+      vertex -8.361 12.099 2
+      vertex -8.119 11.355 0
+      vertex -8.361 12.099 0
+    endloop
+  endfacet
+  facet normal 0.951 -0.309 0
+    outer loop
+      vertex -8.361 9.829 2
+      vertex -8.361 9.829 0
+      vertex -8.119 10.573 0
+    endloop
+  endfacet
+  facet normal 0.951 -0.309 0
+    outer loop
+      vertex -8.361 9.829 2
+      vertex -8.119 10.573 0
+      vertex -8.119 10.573 2
+    endloop
+  endfacet
+  facet normal -0.809 0.588 0
+    outer loop
+      vertex -9.25 10.282 2
+      vertex -9.25 10.282 0
+      vertex -9.526 9.902 0
+    endloop
+  endfacet
+  facet normal -0.809 0.588 0
+    outer loop
+      vertex -9.25 10.282 2
+      vertex -9.526 9.902 0
+      vertex -9.526 9.902 2
+    endloop
+  endfacet
+  facet normal -0.951 0.309 0
+    outer loop
+      vertex -9.105 10.729 0
+      vertex -9.25 10.282 0
+      vertex -9.25 10.282 2
+    endloop
+  endfacet
+  facet normal -0.951 0.309 0
+    outer loop
+      vertex -9.105 10.729 0
+      vertex -9.25 10.282 2
+      vertex -9.105 10.729 2
+    endloop
+  endfacet
+  facet normal -0.951 -0.309 0
+    outer loop
+      vertex -9.25 11.646 2
+      vertex -9.25 11.646 0
+      vertex -9.105 11.199 0
+    endloop
+  endfacet
+  facet normal -0.951 -0.309 0
+    outer loop
+      vertex -9.25 11.646 2
+      vertex -9.105 11.199 0
+      vertex -9.105 11.199 2
+    endloop
+  endfacet
+  facet normal -0.809 -0.588 0
+    outer loop
+      vertex -9.526 12.026 2
+      vertex -9.526 12.026 0
+      vertex -9.25 11.646 0
+    endloop
+  endfacet
+  facet normal -0.809 -0.588 0
+    outer loop
+      vertex -9.526 12.026 2
+      vertex -9.25 11.646 0
+      vertex -9.25 11.646 2
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex -50.69 -9.465 5
+      vertex -50.382 -10.414 5
+      vertex -50.272 -9.252 5
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex -52.584 -8.5 5
+      vertex -53.177 -9.505 5
+      vertex -52.37 -8.919 5
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex -49.726 -8.5 5
+      vertex -49.939 -8.919 5
+      vertex -49.163 -9.536 5
+    endloop
+  endfacet
+  facet normal 0.309 0.951 0
+    outer loop
+      vertex -9.906 9.626 2
+      vertex -9.906 9.626 0
+      vertex -10.353 9.481 0
+    endloop
+  endfacet
+  facet normal 0.309 0.951 0
+    outer loop
+      vertex -9.906 9.626 2
+      vertex -10.353 9.481 0
+      vertex -10.353 9.481 2
+    endloop
+  endfacet
+  facet normal -0.309 0.951 0
+    outer loop
+      vertex -9.906 12.302 2
+      vertex -9.906 12.302 0
+      vertex -10.353 12.447 0
+    endloop
+  endfacet
+  facet normal -0.309 0.951 0
+    outer loop
+      vertex -9.906 12.302 2
+      vertex -10.353 12.447 0
+      vertex -10.353 12.447 2
+    endloop
+  endfacet
+  facet normal 0.309 -0.951 0
+    outer loop
+      vertex -9.906 12.302 0
+      vertex -9.906 12.302 2
+      vertex -10.353 12.447 2
+    endloop
+  endfacet
+  facet normal 0.309 -0.951 0
+    outer loop
+      vertex -9.906 12.302 0
+      vertex -10.353 12.447 2
+      vertex -10.353 12.447 0
+    endloop
+  endfacet
+endsolid DroneFrame
 ```
 
 <!-- ##### -->

@@ -9621,12 +9621,13 @@ solid Drone_Frame
 • https://electronics-tutorials.ws<br>
 
 <!-- ##### -->
-drone
+
 <h4>Links</h4>
 • https://3dprintingindustry.com<br>
 • https://unmannedsystemstechnology.com<br>
 • https://ophiropt.com<br>
 • https://www.viewstl.com<br>
+
 <!-- ##### -->
 
 <h4>Reddit</h4>
@@ -9634,9 +9635,6 @@ drone
 • https://reddit.com/r/DroneCombat<br>
 • https://reddit.com/r/DroneWarfare<br>
 • https://reddit.com/r/DroneWars<br>
-
-<!-- ##### -->
-
 
 <!--################################### -->
 

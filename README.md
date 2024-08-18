@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!--
 <head>
-
-   <meta charset="UTF-8">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FORENSICS</title>
+<style>
+  /* CSS Crime Scene Style*/
+  * {
+    box-sizing: border-box;
+    margin: 2;
+    padding: 2;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(22, 22, 24); /* Dark gray background */
+    color: #fff; /* White text color */
+    margin: 40px; /* Margin for better readability */
+  }
+  /* Titles */
+  h1, h2, h3, h4, h5, h6 {
+    color: #fff; /* White text color */
+  }
+  /* Elements with yellow details */
+  hr, blockquote, table, thead, tbody, tfoot, tr, td, th {
+    border-color: rgb(226, 181, 25); /* Yellowish color for borders */
+  }
+  /* Links within content */
+  a {
+    color: rgb(226, 26, 65); /* Reddish color for links */
+    text-decoration: none; /* Remove underline by default */
+  }
+  a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+</style>
 </head>
-
+-->
 <body>
 
 <div id="header">
@@ -23,10 +53,13 @@
 
 <!-- ##### -->
 
-<p align="center">
-<img src=".data/STM_KARGU_-_Rotary_Wing_Attack_Drone_Loitering_Munition_System_(1080p_25fps_H264-128kbit_AAC).gif" title="Cool cluster weapons"/><br>
-<a href="https://youtu.be/auRlh-f2wwQ">STM | KARGU - Rotary Wing Attack Drone Loitering Munition System</a>
-</p>
+<a href="https://youtu.be/auRlh-f2wwQ">
+  <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2FauRlh-f2wwQ" alt="STM | KARGU - Rotary Wing Attack Drone Loitering Munition System" title="STM | KARGU - Rotary Wing Attack Drone Loitering Munition System"/>
+</a>
+
+<a href="https://www.youtube.com/watch?v=m89bNn6RFoQ">
+  <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dm89bNn6RFoQ" alt="Learning High-Speed Flight in the Wild (Science Robotics, 2021)" title="Learning High-Speed Flight in the Wild (Science Robotics, 2021)"/>
+</a>
 
 <!-- ##### -->
 
@@ -9107,489 +9140,6 @@ solid Drone
     endloop
   endfacet
 endsolid Drone
-```
-
-<h4>A 3D Drone frame in ASCII STL made by ChatGPT-3.5</h4>
-
-```stl
-solid drone_frame
-  facet normal 0 0 1
-    outer loop
-      vertex 0 0 0
-      vertex 20 0 0
-      vertex 20 20 0
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 0 0 0
-      vertex 20 20 0
-      vertex 0 20 0
-    endloop
-  endfacet
-  facet normal 0 0 -1
-    outer loop
-      vertex 0 0 5
-      vertex 20 0 5
-      vertex 20 20 5
-    endloop
-  endfacet
-  facet normal 0 0 -1
-    outer loop
-      vertex 0 0 5
-      vertex 20 20 5
-      vertex 0 20 5
-    endloop
-  endfacet
-  facet normal 1 0 0
-    outer loop
-      vertex 20 0 0
-      vertex 20 0 5
-      vertex 20 20 5
-    endloop
-  endfacet
-  facet normal 1 0 0
-    outer loop
-      vertex 20 0 0
-      vertex 20 20 5
-      vertex 20 20 0
-    endloop
-  endfacet
-  facet normal -1 0 0
-    outer loop
-      vertex 0 0 0
-      vertex 0 0 5
-      vertex 0 20 5
-    endloop
-  endfacet
-  facet normal -1 0 0
-    outer loop
-      vertex 0 0 0
-      vertex 0 20 5
-      vertex 0 20 0
-    endloop
-  endfacet
-  facet normal 0 1 0
-    outer loop
-      vertex 0 20 0
-      vertex 20 20 0
-      vertex 20 20 5
-    endloop
-  endfacet
-  facet normal 0 1 0
-    outer loop
-      vertex 0 20 0
-      vertex 20 20 5
-      vertex 0 20 5
-    endloop
-  endfacet
-  facet normal 0 -1 0
-    outer loop
-      vertex 0 0 0
-      vertex 20 0 0
-      vertex 20 0 5
-    endloop
-  endfacet
-  facet normal 0 -1 0
-    outer loop
-      vertex 0 0 0
-      vertex 20 0 5
-      vertex 0 0 5
-    endloop
-  endfacet
-  facet normal 0 1 0
-    outer loop
-      vertex 4 20 0
-      vertex 16 20 0
-      vertex 16 20 1
-    endloop
-  endfacet
-  facet normal 0 1 0
-    outer loop
-      vertex 4 20 0
-      vertex 16 20 1
-      vertex 4 20 1
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 4 4 1
-      vertex 16 4 1
-      vertex 16 16 1
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 4 4 1
-      vertex 16 16 1
-      vertex 4 16 1
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 4 4 1
-      vertex 16 4 1
-      vertex 16 4 2
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 4 4 1
-      vertex 16 4 2
-      vertex 4 4 2
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 4 16 1
-      vertex 16 16 1
-      vertex 16 16 2
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 4 16 1
-      vertex 16 16 2
-      vertex 4 16 2
-    endloop
-  endfacet
-  facet normal 0 0 -1
-    outer loop
-      vertex 4 4 3
-      vertex 16 4 3
-      vertex 16 16 3
-    endloop
-  endfacet
-  facet normal 0 0 -1
-    outer loop
-      vertex 4 4 3
-      vertex 16 16 3
-      vertex 4 16 3
-    endloop
-  endfacet
-  facet normal 0 0 -1
-    outer loop
-      vertex 4 4 3
-      vertex 16 4 3
-      vertex 16 4 4
-    endloop
-  endfacet
-  facet normal 0 0 -1
-    outer loop
-      vertex 4 4 3
-      vertex 16 4 4
-      vertex 4 4 4
-    endloop
-  endfacet
-  facet normal 0 0 -1
-    outer loop
-      vertex 4 16 3
-      vertex 16 16 3
-      vertex 16 16 4
-    endloop
-  endfacet
-  facet normal 0 0 -1
-    outer loop
-      vertex 4 16 3
-      vertex 16 16 4
-      vertex 4 16 4
-    endloop
-  endfacet
-endsolid drone_frame
-```
-
-<h4>A 3D Drone frame in ASCII STL made by ChatGPT-4.0</h4>
-
-```stl
-solid Drone_Frame
-  // Central body
-  facet normal 0 0 1
-    outer loop
-      vertex 0 0 0
-      vertex 10 0 0
-      vertex 10 10 0
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 0 0 0
-      vertex 10 10 0
-      vertex 0 10 0
-    endloop
-  endfacet
-  facet normal 0 0 -1
-    outer loop
-      vertex 0 0 1
-      vertex 10 0 1
-      vertex 10 10 1
-    endloop
-  endfacet
-  facet normal 0 0 -1
-    outer loop
-      vertex 0 0 1
-      vertex 10 10 1
-      vertex 0 10 1
-    endloop
-  endfacet
-  facet normal 1 0 0
-    outer loop
-      vertex 10 0 0
-      vertex 10 0 1
-      vertex 10 10 1
-    endloop
-  endfacet
-  facet normal 1 0 0
-    outer loop
-      vertex 10 0 0
-      vertex 10 10 1
-      vertex 10 10 0
-    endloop
-  endfacet
-  facet normal -1 0 0
-    outer loop
-      vertex 0 0 0
-      vertex 0 0 1
-      vertex 0 10 1
-    endloop
-  endfacet
-  facet normal -1 0 0
-    outer loop
-      vertex 0 0 0
-      vertex 0 10 1
-      vertex 0 10 0
-    endloop
-  endfacet
-  facet normal 0 1 0
-    outer loop
-      vertex 0 10 0
-      vertex 10 10 0
-      vertex 10 10 1
-    endloop
-  endfacet
-  facet normal 0 1 0
-    outer loop
-      vertex 0 10 0
-      vertex 10 10 1
-      vertex 0 10 1
-    endloop
-  endfacet
-  facet normal 0 -1 0
-    outer loop
-      vertex 0 0 0
-      vertex 10 0 0
-      vertex 10 0 1
-    endloop
-  endfacet
-  facet normal 0 -1 0
-    outer loop
-      vertex 0 0 0
-      vertex 10 0 1
-      vertex 0 0 1
-    endloop
-  endfacet
-
-  // Arm 1
-  facet normal 0 0 1
-    outer loop
-      vertex 5 10 0
-      vertex 6 10 0
-      vertex 6 20 0
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 5 10 0
-      vertex 6 20 0
-      vertex 5 20 0
-    endloop
-  endfacet
-  facet normal 0 0 -1
-    outer loop
-      vertex 5 10 1
-      vertex 6 10 1
-      vertex 6 20 1
-    endloop
-  endfacet
-  facet normal 0 0 -1
-    outer loop
-      vertex 5 10 1
-      vertex 6 20 1
-      vertex 5 20 1
-    endloop
-  endfacet
-  facet normal 1 0 0
-    outer loop
-      vertex 6 10 0
-      vertex 6 10 1
-      vertex 6 20 1
-    endloop
-  endfacet
-  facet normal 1 0 0
-    outer loop
-      vertex 6 10 0
-      vertex 6 20 1
-      vertex 6 20 0
-    endloop
-  endfacet
-  facet normal -1 0 0
-    outer loop
-      vertex 5 10 0
-      vertex 5 10 1
-      vertex 5 20 1
-    endloop
-  endfacet
-  facet normal -1 0 0
-    outer loop
-      vertex 5 10 0
-      vertex 5 20 1
-      vertex 5 20 0
-    endloop
-  endfacet
-  facet normal 0 1 0
-    outer loop
-      vertex 5 20 0
-      vertex 6 20 0
-      vertex 6 20 1
-    endloop
-  endfacet
-  facet normal 0 1 0
-    outer loop
-      vertex 5 20 0
-      vertex 6 20 1
-      vertex 5 20 1
-    endloop
-  endfacet
-
-  // Arm 2
-  facet normal 0 0 1
-    outer loop
-      vertex 10 5 0
-      vertex 20 5 0
-      vertex 20 6 0
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 10 5 0
-      vertex 20 6 0
-      vertex 10 6 0
-    endloop
-  endfacet
-  facet normal 0 0 -1
-    outer loop
-      vertex 10 5 1
-      vertex 20 5 1
-      vertex 20 6 1
-    endloop
-  endfacet
-  facet normal 0 0 -1
-    outer loop
-      vertex 10 5 1
-      vertex 20 6 1
-      vertex 10 6 1
-    endloop
-  endfacet
-  facet normal 1 0 0
-    outer loop
-      vertex 20 5 0
-      vertex 20 5 1
-      vertex 20 6 1
-    endloop
-  endfacet
-  facet normal 1 0 0
-    outer loop
-      vertex 20 5 0
-      vertex 20 6 1
-      vertex 20 6 0
-    endloop
-  endfacet
-  facet normal -1 0 0
-    outer loop
-      vertex 10 5 0
-      vertex 10 5 1
-      vertex 10 6 1
-    endloop
-  endfacet
-  facet normal -1 0 0
-    outer loop
-      vertex 10 5 0
-      vertex 10 6 1
-      vertex 10 6 0
-    endloop
-  endfacet
-  facet normal 0 1 0
-    outer loop
-      vertex 10 6 0
-      vertex 20 6 0
-      vertex 20 6 1
-    endloop
-  endfacet
-  facet normal 0 1 0
-    outer loop
-      vertex 10 6 0
-      vertex 20 6 1
-      vertex 10 6 1
-    endloop
-  endfacet
-
-  // Arm 3
-  facet normal 0 0 1
-    outer loop
-      vertex 5 0 0
-      vertex 6 0 0
-      vertex 6 -10 0
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 5 0 0
-      vertex 6 -10 0
-      vertex 5 -10 0
-    endloop
-  endfacet
-  facet normal 0 0 -1
-    outer loop
-      vertex 5 0 1
-      vertex 6 0 1
-      vertex 6 -10 1
-    endloop
-  endfacet
-  facet normal 0 0 -1
-    outer loop
-      vertex 5 0 1
-      vertex 6 -10 1
-      vertex 5 -10 1
-    endloop
-  endfacet
-  facet normal 1 0 0
-    outer loop
-      vertex 6 0 0
-      vertex 6 0 1
-      vertex 6 -10 1
-    endloop
-  endfacet
-  facet normal 1 0 0
-    outer loop
-      vertex 6 0 0
-      vertex 6 -10 1
-      vertex 6 -10 0
-    endloop
-  endfacet
-  facet normal -1 0 0
-    outer loop
-      vertex 5 0 0
-      vertex 5 0 1
-      vertex 5 -10 1
-    endloop
-  endfacet
-  facet normal -1 0 0
-    outer loop
-      vertex 5 0 0
-      vertex 5 -10 1
-      vertex 5 -10 0
-    endloop
-  endfacet
-  facet normal
 ```
 
 <!-- ##### -->

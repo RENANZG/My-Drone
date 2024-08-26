@@ -9176,7 +9176,10 @@ endsolid Drone
 • https://3dprintingindustry.com<br>
 • https://unmannedsystemstechnology.com<br>
 • https://ophiropt.com<br>
-• https://www.viewstl.com<br>
+• https://viewstl.com<br>
+• https://uasvision.com<br>
+• https://armyrecognition.com<br>
+
 
 <!-- ##### -->
 
@@ -9185,6 +9188,12 @@ endsolid Drone
 • https://reddit.com/r/DroneCombat<br>
 • https://reddit.com/r/DroneWarfare<br>
 • https://reddit.com/r/DroneWars<br>
+
+<!-- ##### -->
+
+<h4>Telegram</h4>
+• https://t.me/VictoryDrones<br>
+• 
 
 <!--################################### -->
 
